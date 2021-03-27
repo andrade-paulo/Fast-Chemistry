@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Chemistry - Elemento Após Emissão de Partículas</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+</head>
+
+<body id="oper" class="bodyoper">
+    <div class='header'>
+        <a href="../index.html">fast chemistry</a>
+    </div>
+    
+    <section class="oper">
+        <div class="box" id='msg'>
+            <h2>Massa e Número Atômico Após Uma Emissão de Partículas</h2>
+            <p><h3>Massa inicial:</h3> <input class="vlr" type="number" name='massaInic' id='mI' min="0"></p>
+            <p><h3>Número Atômico:</h3> <input class="vlr" type="number" name="numAtmc" id="z" min="0"></p>
+            <p><h3>Partículas Alfa:</h3> <input class="vlr" type="number" name="partAlf" id='alfa' min="0"></p>
+            <p><h3>Partículas Beta:</h3> <input class="vlr" type="number" name="partBet" id="beta" min='0'></p>
+        </div>
+
+        <div class="box">
+            <h2>Resultado</h2>
+            <h3 id='result' class="result">Preencha as informações para continuar</h3>
+            <p id="button">
+                <input class="btn" type="button" value="confirmar" onclick="elemFinal()">
+            </p>
+        </div>
+    </section>
+
+    <script src="../js/script-elemFinal.js"></script>
+</body>
+</html>

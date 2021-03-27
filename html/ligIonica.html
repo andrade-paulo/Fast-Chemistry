@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Chemistry - Equação Geral dos Gases</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+</head>
+
+<body id="oper" class="bodyoper">
+    <div class='header'>
+        <a href="../index.html">fast chemistry</a>
+    </div>
+
+    <section class="oper">
+        <div class="box" id='msg'>
+            <h2>Ligação Iônica</h2>
+            <p><h3>Primeiro Elemento:</h3> <input class="vlr" type="text" name='firstElmnt' id='fE'></p>
+            <p><h3>Número Atômico:</h3> <input class="vlr" type="number" name="numAtm1" id="z1" min="0"></p>
+            <p><h3>Segundo Elemento:</h3> <input class="vlr" type="text" name="secondElmnt" id='sE'></p>
+            <p><h3>Número Atômico:</h3> <input class="vlr" type="number" name="numAtm2" id="z2" min='0'></p>
+        </div>
+
+        <div class="box">
+            <h2>Resultado</h2>
+            <h3 id='result' class="result">Preencha as informações para continuar</h3>
+            <p id="button">
+                <input class="btn" type="button" value="confirmar" onclick="ligInc()">
+            </p>
+        </div>
+    </section>
+
+    <script src="../js/script-ligIonica.js"></script>
+</body>
+</html>

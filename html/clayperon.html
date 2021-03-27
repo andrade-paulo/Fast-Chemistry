@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Chemistry - Equação de Clayperon</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+</head>
+
+<body id="oper" class="bodyoper">
+    <div class='header'>
+        <a href="../index.html">fast chemistry</a>
+    </div>
+
+    <section class="oper">
+        <div class="box" id='msg'>
+            <h2>Equação de Clayperon</h2>
+            <p><h3>Pressão (atm):</h3> <input class="vlr" type="number" name='massaInic' id='pres' min="0"></p>
+            <p><h3>Volume (Litros):</h3> <input class="vlr" type="number" name="massaFin" id="vol" min="0"></p>
+            <p><h3>Mols:</h3> <input class="vlr" type="number" name="nAtmInic" id='mol' min="0"></p>
+            <p><h3>Temperatura (K):</h3> <input class="vlr" type="number" name="nAtmFin" id="temp" min='0'></p>
+
+        </div>
+
+        <div class="box">      
+            <h2>Resultado</h2>
+            <h3 id='result' class="result">Preencha as informações para continuar</h3>      
+            <p id="button">
+                <input class="btn" type="button" value="confirmar" onclick="clayperon()">
+            </p>
+        </div>
+    </section>
+
+    <script src="../js/script-clayperon.js"></script>
+</body>
+</html>

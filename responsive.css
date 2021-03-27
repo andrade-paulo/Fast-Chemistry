@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px){
+    .intro{
+        margin-top: 20px;
+    }
+
+    .msg{
+        max-width: 90%;
+        margin-left: 22px;
+        font-size: 13px;
+    }
+
+    .operacoes{
+        position: unset;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    img {
+        margin: 70px auto;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .opcoes{
+        text-align: unset;
+        max-height: 250px;
+        max-width: 90px;
+        top: 210px;
+        left: 4%;
+        border-style: solid;
+        border-color: turquoise;
+        background-color: #111111d5;
+    }
+
+    .opcoes a{
+        padding: 12px 16px 12px 0px;
+    }
+
+    /* Operações */
+    .box{
+        height: auto;
+        width: auto;
+        float: unset;
+    }
+}

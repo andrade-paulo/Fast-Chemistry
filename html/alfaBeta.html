@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Chemistry - Emissão Alfa e Beta</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+</head>
+
+<body id="oper" class="bodyoper">
+    <div class='header'>
+        <a href="../index.html">fast chemistry</a>
+    </div>
+    <section class="oper">
+        <div class="box" id='msg'>
+            <h2>Emissão de Partículas Alfa & Beta</h2>
+            <p><h3>Massa inicial:</h3> <input class="vlr" type="number" name='massaInic' id='masInic' min="0"></p>
+            <p><h3>Massa Final:</h3> <input class="vlr" type="number" name="massaFin" id="maFin" min="0"></p>
+            <p><h3>Número Atômico Inicial:</h3> <input class="vlr" type="number" name="nAtmInic" id='zIni' min="0"></p>
+            <p><h3>Número Atômico Final:</h3> <input class="vlr" type="number" name="nAtmFin" id="zFin" min='0'></p>
+        </div>
+        
+        <div class="box">
+            <h2>Resultado</h2>
+            <h3 id='result' class="result">Preencha as informações para continuar</h3>            
+            <p id="button">
+                <input class="btn" type="button" value="confirmar" onclick="emiAlfaBeta()">
+            </p>
+        </div>
+    </section>
+
+    <script src="../js/script-alfaBeta.js"></script>
+</body>
+</html>

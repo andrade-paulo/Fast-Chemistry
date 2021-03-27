@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Chemistry - Equação Geral dos Gases</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+</head>
+
+<body id="oper" class="bodyoper">
+    <div class='header'>
+        <a href="../index.html">fast chemistry</a>
+    </div>
+
+    <section class="oper">
+        <div class="box" id='msg'>
+            <h2>Equação Geral dos Gases</h2>
+            <p><h3>Pressão Inicial (atm):</h3> <input class="vlr" type="number" id='pres1' min="0"></p>
+            <p><h3>Volume Inicial (Litros):</h3> <input class="vlr" type="number" id="vol1" min="0"></p>
+            <p><h3>Temperatura Inicial (K):</h3> <input class="vlr" type="number" id="temp1" min='0'></p>
+            <p><h3>Pressão Final (atm):</h3> <input class="vlr" type="number" id='pres2' min="0"></p>
+            <p><h3>Volume Final (Litros):</h3> <input class="vlr" type="number" id="vol2" min="0"></p>
+            <p><h3>Temperatura Final (K):</h3> <input class="vlr" type="number" id="temp2" min='0'></p>
+        </div>
+    
+        <div class="box">
+            <h2>Resultado</h2>
+            <h3 id='result' class="result">Preencha as informações para continuar</h3>
+            <p id="button">
+                <input class="btn" type="button" value="confirmar" onclick="gasideal()">
+            </p>
+        </div>
+    </section>
+
+    <script src="../js/script-gasideal.js"></script>
+</body>
+</html>

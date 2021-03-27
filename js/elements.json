@@ -1,0 +1,526 @@
+{
+    "elements": [
+        {
+            "smbl": "H",
+            "nome": "Hidrogênio",
+            "z": 1,
+            "a": 1
+        },
+        {
+            "smbl": "He",
+            "nome": "Hélio",
+            "z": 2,
+            "a": 4
+        },
+        {
+            "smbl": "Li",
+            "nome": "Lítio",
+            "z": 3,
+            "a": 7 
+        },
+        {
+            "smbl": "Be",
+            "nome": "Berílio",
+            "z": 4,
+            "a": 7
+        },
+        {
+            "smbl": "B",
+            "nome": "Boro",
+            "z": 5,
+            "a": 11
+        },
+        {
+            "smbl": "C",
+            "nome": "Carbono",
+            "z": 6,
+            "a": 12
+        },
+        {
+            "smbl": "O",
+            "nome": "Oxigênio",
+            "z": 8,
+            "a": 16
+        },
+        {
+            "smbl": "F",
+            "nome": "Flúor",
+            "z": 9,
+            "a": 19
+        },
+        {
+            "smbl": "Ne",
+            "nome": "Neônio",
+            "z": 10,
+            "a": 20
+        },
+        {
+            "smbl": "Na",
+            "nome": "Sódio",
+            "z": 11,
+            "a": 23
+        },
+        {
+            "smbl": "Mg",
+            "nome": "Magnésio",
+            "z": 12,
+            "a": 24
+        },
+        {
+            "smbl": "Al",
+            "nome": "Alumínio",
+            "z": 13,
+            "a": 27
+        },
+        {
+            "smbl": "Si",
+            "nome": "Silício",
+            "z": 14,
+            "a": 28
+        },
+        {
+            "smbl": "P",
+            "nome": "Fósforo",
+            "z": 15,
+            "a": 31
+        },
+        {
+            "smbl": "S",
+            "nome": "Enxofre",
+            "z": 16,
+            "a": 32
+        },
+        {
+            "smbl": "Cl",
+            "nome": "Cloro",
+            "z": 17,
+            "a": 35.5
+        },
+        {
+            "smbl": "Ar",
+            "nome": "Argônio",
+            "z": 18,
+            "a": 40
+        },
+        {
+            "smbl": "K",
+            "nome": "Potássio",
+            "z": 19,
+            "a": 39
+        },
+        {
+            "smbl": "Ca",
+            "nome": "Cálcio",
+            "z": 20,
+            "a": 40
+        },
+        {
+            "smbl": "Sc",
+            "nome": "Escândio",
+            "z": 21,
+            "a": 45
+        },
+        {
+            "smbl": "Ti",
+            "nome": "Titânio",
+            "z": 22,
+            "a": 48
+        },
+        {
+            "smbl": "V",
+            "nome": "Vanádio",
+            "z": 23,
+            "a": 51
+        },
+        {
+            "smbl": "Cr",
+            "nome": "Crômio",
+            "z": 24,
+            "a": 52
+        },
+        {
+            "smbl": "Mn",
+            "nome": "Manganês",
+            "z": 25,
+            "a": 55
+        },
+        {
+            "smbl": "Fe",
+            "nome": "Ferro",
+            "z": 26,
+            "a": 56
+        },
+        {
+            "smbl": "Co",
+            "nome": "Cobalto",
+            "z": 27,
+            "a": 59
+        },
+        {
+            "smbl": "Ni",
+            "nome": "Níquel",
+            "z": 28,
+            "a": 58.5
+        },
+        {
+            "smbl": "Cu",
+            "nome": "Cobre",
+            "z": 29,
+            "a": 63.5
+        },
+        {
+            "smbl": "Zn",
+            "nome": "Zinco",
+            "z": 30,
+            "a": 65.5
+        },
+        {
+            "smbl": "Ga",
+            "nome": "Gálio",
+            "z": 31,
+            "a": 70
+        },
+        {
+            "smbl": "Ge",
+            "nome": "Germânio",
+            "z": 32,
+            "a": 72.5
+        },
+        {
+            "smbl": "As",
+            "nome": "Arsênio",
+            "z": 33,
+            "a": 75
+        },
+        {
+            "smbl": "Se",
+            "nome": "Selênio",
+            "z": 34,
+            "a": 79
+        },
+        {
+            "smbl": "Br",
+            "nome": "Bromo",
+            "z": 35,
+            "a": 80
+        },
+        {
+            "smbl": "Kr",
+            "nome": "Criptônio",
+            "z": 36,
+            "a": 84
+        },
+        {
+            "smbl": "Rb",
+            "nome": "Rubídio",
+            "z": 37,
+            "a": 85.5
+        },
+        {
+            "smbl": "Sr",
+            "nome": "Estrôncio",
+            "z": 38,
+            "a": 87.5
+        },
+        {
+            "smbl": "Y",
+            "nome": "Ítrio",
+            "z": 39,
+            "a": 89
+        },
+        {
+            "smbl": "Zr",
+            "nome": "Zircônio",
+            "z": 40,
+            "a": 91
+        },
+        {
+            "smbl": "Nb",
+            "nome": "Nióbio",
+            "z": 41,
+            "a": 93
+        },
+        {
+            "smbl": "Mo",
+            "nome": "Molibdênio",
+            "z": 42,
+            "a": 96
+        },
+        {
+            "smbl": "Tc",
+            "nome": "Tecnécio",
+            "z": 43,
+            "a": 98
+        },
+        {
+            "smbl": "Ru",
+            "nome": "Rutênio",
+            "z": 44,
+            "a": 101
+        },
+        {
+            "smbl": "Rh",
+            "nome": "Ródio",
+            "z": 45,
+            "a": 103
+        },
+        {
+            "smbl": "Pd",
+            "nome": "Paládio",
+            "z": 46,
+            "a": 106.5
+        },
+        {
+            "smbl": "Ag",
+            "nome": "Prata",
+            "z": 47,
+            "a": 108
+        },
+        {
+            "smbl": "Cd",
+            "nome": "Cádmio",
+            "z": 48,
+            "a": 112.5
+        },
+        {
+            "smbl": "In",
+            "nome": "Índio",
+            "z": 49,
+            "a": 115
+        },
+        {
+            "smbl": "Sn",
+            "nome": "Estanho",
+            "z": 50,
+            "a": 119
+        },
+        {
+            "smbl": "Sb",
+            "nome": "Antimônio",
+            "z": 51,
+            "a": 122
+        },
+        {
+            "smbl": "Te",
+            "nome": "Telúrio",
+            "z": 52,
+            "a": 127.5
+        },
+        {
+            "smbl": "I",
+            "nome": "Iodo",
+            "z": 53,
+            "a": 127
+        },
+        {
+            "smbl": "Xe",
+            "nome": "Xenônio",
+            "z": 54,
+            "a": 131
+        },
+        {
+            "smbl": "Cs",
+            "nome": "Césio",
+            "z": 55,
+            "a": 133
+        },
+        {
+            "smbl": "Ba",
+            "nome": "Bário",
+            "z": 56,
+            "a": 137
+        },
+        {
+            "smbl": "Hf",
+            "nome": "Háfnio",
+            "z": 72,
+            "a": 178.5
+        },
+        {
+            "smbl": "Ta",
+            "nome": "Tântalo",
+            "z": 73,
+            "a": 181
+        },
+        {
+            "smbl": "W",
+            "nome": "Tungstênio",
+            "z": 74,
+            "a": 184
+        },
+        {
+            "smbl": "Re",
+            "nome": "Rênio",
+            "z": 75,
+            "a": 186
+        },
+        {
+            "smbl": "Os",
+            "nome": "Ósmio",
+            "z": 76,
+            "a": 190
+        },
+        {
+            "smbl": "Ir",
+            "nome": "Irídio",
+            "z": 77,
+            "a": 192
+        },
+        {
+            "smbl": "Pt",
+            "nome": "Platina",
+            "z": 78,
+            "a": 195
+        },
+        {
+            "smbl": "Au",
+            "nome": "Ouro",
+            "z": 79,
+            "a": 197
+        },
+        {
+            "smbl": "Hg",
+            "nome": "Mercúrio",
+            "z": 80,
+            "a": 200.5
+        },
+        {
+            "smbl": "Ti",
+            "nome": "Tálio",
+            "z": 81,
+            "a": 204
+        },
+        {
+            "smbl": "Pb",
+            "nome": "Chumbo",
+            "z": 82,
+            "a": 207
+        },
+        {
+            "smbl": "Bi",
+            "nome": "Bismuto",
+            "z": 83,
+            "a": 209
+        },
+        {
+            "smbl": "Po",
+            "nome": "Polônio",
+            "z": 84,
+            "a": 209
+        },
+        {
+            "smbl": "At",
+            "nome": "Astato",
+            "z": 85,
+            "a": 210
+        },
+        {
+            "smbl": "Rn",
+            "nome": "Radônio",
+            "z": 86,
+            "a": 222
+        },
+        {
+            "smbl": "Fr",
+            "nome": "Frâncio",
+            "z": 87,
+            "a": 223
+        },
+        {
+            "smbl": "Ra",
+            "nome": "Rádio",
+            "z": 88,
+            "a": 226
+        },
+        {
+            "smbl": "Rf",
+            "nome": "Rutherfódio",
+            "z": 104,
+            "a": 267
+        },
+        {
+            "smbl": "Db",
+            "nome": "Dúbnio",
+            "z": 105,
+            "a": 268
+        },
+        {
+            "smbl": "Sg",
+            "nome": "Seabógio",
+            "z": 106,
+            "a": 269
+        },
+        {
+            "smbl": "Bh",
+            "nome": "Bóhrio",
+            "z": 107,
+            "a": 270
+        },
+        {
+            "smbl": "Hs",
+            "nome": "Hássio",
+            "z": 108,
+            "a": 269
+        },
+        {
+            "smbl": "Mt",
+            "nome": "Meitnério",
+            "z": 109,
+            "a": 278
+        },
+        {
+            "smbl": "Ds",
+            "nome": "Darmstádtio",
+            "z": 110,
+            "a": 281
+        },
+        {
+            "smbl": "Rg",
+            "nome": "Roentgênio",
+            "z": 111,
+            "a": 281
+        },
+        {
+            "smbl": "Cn",
+            "nome": "Copernício",
+            "z": 112,
+            "a": 285
+        },
+        {
+            "smbl": "Nh",
+            "nome": "Nihônio",
+            "z": 113,
+            "a": 286
+        },
+        {
+            "smbl": "Fl",
+            "nome": "Fleróvio",
+            "z": 114,
+            "a": 289
+        },
+        {
+            "smbl": "Mc",
+            "nome": "Moscóvio",
+            "z": 115,
+            "a": 288
+        },
+        {
+            "smbl": "Lv",
+            "nome": "Livermório",
+            "z": 116,
+            "a": 293
+        },
+        {
+            "smbl": "Ts",
+            "nome": "Tenessino",
+            "z": 117,
+            "a": 294
+        },
+        {
+            "smbl": "Og",
+            "nome": "Oganessônio",
+            "z": 118,
+            "a": 294
+        }
+    ]
+}
