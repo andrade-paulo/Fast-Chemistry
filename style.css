@@ -1,22 +1,26 @@
-body{font-family: Arial, Helvetica, sans-serif; margin: 0; background-color: #121212;}
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+html {height: 100%;}
+
+body{font-family: Arial, Helvetica, sans-serif; margin: 0; height: 100%;}
 
 a{color: #ffffff; text-decoration: none;}
 
-.main{background-color: #eceaea;}
+.main{background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);}
 
-.intro{margin-top: 135px}
-
-.intro h2{
-    font-family: 'Courier New', Courier, monospace;
-    color: #002133;
-    text-transform: uppercase;
-    font-size: 38px;
+.intro{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
 }
 
-.msg{
-    width: 600px;
-    margin-left: 68px;
-    float: left;
+.intro h1{
+    font-family: 'Crete Round', serif;
+    color: #002133;
+    text-transform: uppercase;
+    font-size: 34px;
 }
 
 .msg p{
@@ -25,23 +29,28 @@ a{color: #ffffff; text-decoration: none;}
 }
 
 .btn{
-    background-color: #002133;
-    color: white;
-    padding: 16px;
+    background-color: rgba(17, 17, 17, 0);
+    font-family: 'Source Sans Pro', sans-serif;
+    border: solid 4px #4CD8CE;
+    padding: 13px 14px;
+    color: #4CD8CE;
+    text-transform: uppercase;
     font-size: 16px;
-    border: none;
     cursor: pointer;
-    transition: 0.3s;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: rgba(19, 19, 19);
 }
 
 .operacoes{
-    position: absolute;
-    top: 340px;
-    margin-left: 68px;
+    margin-top: 30px;
+    max-width: 60px;
 }
 
 .opcoes{
-    max-height: 250px;
+    max-height: 200px;
     overflow: auto;
     display: none;
     position: absolute;
@@ -74,34 +83,34 @@ a{color: #ffffff; text-decoration: none;}
 
 .operacoes:hover .opcoes{display: block;}
 
-.operacoes:hover .btn{color: #00FFED; border: 3px solid #00FFED;}
+.operacoes:hover .btn{background-color: rgb(19, 19, 19)}
 
 /* Operações */
 
 .header{
-    background-color: #002133;
     padding: 15px;
     text-align: center;
 }
 
 .header a{
+    font-family: 'Crete Round', serif;
     display: inline-block;
     color: #00FFED;
-    font-size: 18px;
+    font-size: 25px;
+    border-bottom: solid 2px;
     text-decoration: none;
     text-transform: uppercase;
-    border: 3px solid #00FFED;
     padding: 8px 20px;
-    transition: 0.5s;
+    overflow: hidden;
+    transition: 0.3s;
 }
 
 .header a:hover{
     color: rgb(218, 218, 218);
-    border: 3px solid #dadada;
 }
 
 .bodyoper{
-    background-image: url('./bg-operacao.jpg');
+    background-image: linear-gradient(120deg, rgb(11, 30, 53) 0%, rgb(24, 39, 56) 100%);
 }
 
 .box{
@@ -114,6 +123,34 @@ a{color: #ffffff; text-decoration: none;}
 
 .oper h2{
     color: #4CD8CE;
-    font-size: 25px;
+    font-size: 25px;    
     text-align: center;
 }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.vlr{
+    margin: 12px 0px;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #00000081;
+    border: none;
+    border-left: 2px solid #dadada;
+    width: 20%;
+    transition: 0.5s;
+}
+
+.vlr:focus{
+    width: 30%;
+}
+

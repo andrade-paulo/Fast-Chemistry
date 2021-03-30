@@ -1,0 +1,19 @@
+{
+  "name": "fastchemistry",
+  "version": "1.0.0",
+  "description": "Chemistry calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrade-paulo/Fast-Chemistry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrade-paulo/Fast-Chemistry/issues"
+  },
+  "homepage": "https://github.com/andrade-paulo/Fast-Chemistry#readme"
+}

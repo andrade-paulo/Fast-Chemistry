@@ -1,45 +1,97 @@
-@media only screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .intro{
-        margin-top: 20px;
+        height: 100%;
+        display: grid;
+        text-align: center;
     }
 
     .msg{
-        max-width: 90%;
-        margin-left: 22px;
         font-size: 13px;
     }
 
-    .operacoes{
-        position: unset;
-        text-align: center;
-        margin-left: 0;
+    .operacoes {
+        max-width: unset;
     }
 
     img {
-        margin: 70px auto;
-        max-width: 90%;
-        height: auto;
+        max-width: 100%;
+    }
+
+    .vlr:focus{
+        width: 40%;
     }
 
     .opcoes{
-        text-align: unset;
-        max-height: 250px;
-        max-width: 90px;
-        top: 210px;
-        left: 4%;
+        position: fixed; 
+        left: 0;
+        width: 99%;
+        padding-left: 0px;
         border-style: solid;
         border-color: turquoise;
-        background-color: #111111d5;
     }
 
-    .opcoes a{
-        padding: 12px 16px 12px 0px;
-    }
-
-    /* Operações */
     .box{
         height: auto;
         width: auto;
         float: unset;
     }
+
+}
+
+@media screen and (min-height: 768px) and (min-width: 768px) and (max-width: 1024px){
+    .intro h1 {font-size: 6vw;}
+
+    .intro p {font-size: 4vw;}
+
+    .intro cite {font-size: 3vw;}
+
+    .btn {
+        font-size: 3vw;
+        border-width: 6px;
+    }
+
+    .intro{
+        height: 100%;
+        display: grid;
+        text-align: center;
+    }
+
+    .msg{
+        font-size: 13px;
+    }
+
+    .operacoes {
+        max-width: unset;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .vlr:focus{
+        width: 40%;
+    }
+
+    .opcoes{
+        max-height: 260px;
+        position: fixed; 
+        left: 14.5%;
+        width: 70%;
+        font-size: 2.5vw;
+        padding-left: 0px;
+        border-style: solid;
+        border-color: turquoise;
+    }
+
+    .box{
+        height: auto;
+        width: auto;
+        float: unset;
+    }
+
+    .bodyoper a {font-size: 6vw}
+
+    .bodyoper h2 {font-size: 4vw}
+
+    .bodyoper h3 {font-size: 3vw}
 }
