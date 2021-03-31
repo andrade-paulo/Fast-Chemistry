@@ -1,5 +1,4 @@
-# Fast-Chemistry
- Chemistry calculator
+# Fast Chemistry
 
 Projeto open-source responsivo capaz de resolver operações químicas básicas. 
 
